@@ -130,3 +130,100 @@ Variables must be declared and typed in the Beatles programming language. To dec
 ```
 Let it be [VariableName] Is a [Type]
 ```
+
+### Operators
+
+#### Assignment
+
+To assign a value to a variable, use the `yeah yeah yeah` operator:
+
+```
+Let it be FooVar Is a Paul
+Let it be BarVar Is a George
+Let it be BazVar Is a John
+
+FooVar Yeah yeah yeah 'This is my value'
+BarVar Yeah yeah yeah 25
+BazVar Yeah yeah yeah Somewhere man
+```
+
+#### Comparison
+
+Since we are all created equal and love it all you need, no variable is greater than or less than another variable. We can only test their equality. We strive for all expressions to be equal, since inequality is not cool.
+
+```
+Skelter FooVar Is BarVar
+    googoo FooVar and BarVar are equal
+Helter Skelter fooVar Is bazVar
+    googoo FooVar and BazVar are equal
+```
+
+#### Addition
+
+Use `Within you` to perform addition operations.
+
+#### Subtraction
+
+Use `Without you` to perform subtraction operations.
+
+
+### Classes and Functions
+
+#### Declaring a Class
+
+Classes are declared with the `Ob-la-di, Ob-la-da` phrase and wrapped with `Hello` and `Goodbye`.
+
+```
+Ob-la-di, Ob-la-da Classname
+Hello
+
+    googoo Define class properties and methods here
+
+Goodbye
+```
+
+#### Defining a Function
+
+Functions are defined using the `Twist and ... Shout` phrase. To define arguments, `Dig a pony`.
+
+Declaring a function/method without arguments:
+
+```
+Twist and MyFunction
+    googoo The body of the function/method goes here
+Shout
+```
+
+Declaring a function/method with arguments:
+
+```
+Twist and MyFunction Dig a pony ArgFoo Is a Paul, ArgBar Is a George
+    googoo The body of the function/method goes here
+Shout
+```
+
+#### Invoking Methods and Functions
+
+When we want to invoke a method or function, we `Hey` it. `Dig a pony` to give arguments to the function or class method.
+
+```
+MyObj Hey MyMethod Dig a pony ArgFoo, ArgBar
+```
+
+## Other Functionality
+
+### Sending Mail
+
+```
+WithLove From, To, Message
+```
+
+You may use the `WithLove` function to send mail. `Hey` it and `Dig a pony` to pass the from address, to address, and message.
+
+```
+Let it be FromMe Is a Paul Yeah yeah yeah 'me@example.org'
+Let it be ToYou Is a Paul Yeah yeah yeah 'you@example.org'
+Let it be Msg Is a Paul Yeah yeah yeah 'This is my test message'
+
+Hey WithLove Dig a pony FromMe, ToYou, Msg
+```
