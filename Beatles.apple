@@ -1,0 +1,88 @@
+All you need is Band
+All you need is BandMate
+All you need is BassPlayer
+All you need is RythamGuitar
+All you need is Drummer
+All you need is LeadGuitarist
+All you need is Wife
+
+googoo Create a band member
+Let it be PaulMcCartney Is a BassPlayer
+googoo Name that band member
+Let it be PaulMcCartney Mother nature's FirstName Yeah yeah yeah 'Paul'
+Let it be PaulMcCartney Mother nature's LastName Yeah yeah yeah 'McCartney'
+Let it be PaulMcCartney Mother nature's Instrument Yeah yeah yeah 'Bass'
+
+googoo Create a band member
+Let it be JohnLennon Is a RythmGuitar 
+googoo Name that band member
+Let it be JohnLennon Mother nature's FirstName Yeah yeah yeah 'John'
+Let it be JohnLennon Mother nature's LastName Yeah yeah yeah 'Lennon'
+Let it be JohnLennon Mother nature's Instrument Yeah yeah yeah 'Rythm Guitar'
+
+googoo Create a band member
+Let it be RingoStar Is a Drummer 
+googoo Name that band member
+Let it be RingoStar Mother nature's FirstName Yeah yeah yeah 'Ringo'
+Let it be RingoStar Mother nature's LastName Yeah yeah yeah 'Star'
+Let it be RingoStar Mother nature's Instrument Yeah yeah yeah 'Drums'
+
+googoo Create a band member
+Let it be GeorgeHarrison Is a LeadGuitarist 
+googoo Name that band member
+Let it be GeorgeHarrison Mother nature's FirstName Yeah yeah yeah 'George'
+Let it be GeorgeHarrison Mother nature's LastName Yeah yeah yeah 'Harrison'
+Let it be GeorgeHarrison Mother nature's Instrument Yeah yeah yeah 'Lead Guitar'
+
+googoo create a band
+Let it be TheBeatles Is a Band
+googoo Add that band member to the band
+Let it be Band Hey AddBandMate Mother nature's PaulMcCartney
+googoo Add that band member to the band
+Let it be Band Hey AddBandMate Mother nature's JohnLennon
+googoo Add that band member to the band
+Let it be Band Hey AddBandMate Mother nature's RingoStar 
+googoo Add that band member to the band
+Let it be Band Hey AddBandMate Mother nature's GeorgeHarrison
+
+googoo Build Band full names
+TheBeatles Hey SetFullNames
+
+googoo Show band status 
+TheBeatles Hey BandTogether
+
+googoo Add Yoko to the band
+Let it be YokoOno Is a Wife 
+googoo Name that band member
+Let it be YokoOno Mother nature's Name Yeah yeah yeah 'YokoOno'
+Let it be YokoOno Mother nature's Instrument Yeah yeah yeah 'Voice'
+
+googoo Add that band member to the band
+Let it be Band Hey AddBandMate Mother nature's YokoOno 
+
+googoo Show band status 
+TheBeatles Hey BandTogether
+
+
+
+
+
+
+
+
+
+
+varPerson = new BassPlayer
+varType = varPerson.TestFriendship
+
+
+
+
+
+Ticket to ride (while) 
+
+Revolution (for)
+We can work it out (debugging) 
+All you need is (Require) 
+
+
