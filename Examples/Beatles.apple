@@ -1,7 +1,7 @@
 All you need is Band
 All you need is BandMate
-All you need is BassPlayer
-All you need is RythamGuitar
+All you need is BassGuitarist
+All you need is RythamGuitarist
 All you need is Drummer
 All you need is LeadGuitarist
 All you need is Wife
@@ -9,41 +9,41 @@ All you need is Wife
 googoo Create a band member
 Let it be PaulMcCartney Is a BassPlayer
 googoo Name that band member
-Let it be PaulMcCartney Mother nature's FirstName Yeah yeah yeah 'Paul'
-Let it be PaulMcCartney Mother nature's LastName Yeah yeah yeah 'McCartney'
-Let it be PaulMcCartney Mother nature's Instrument Yeah yeah yeah 'Bass'
+PaulMcCartney Mother nature's FirstName Yeah yeah yeah 'Paul'
+PaulMcCartney Mother nature's LastName Yeah yeah yeah 'McCartney'
+PaulMcCartney Mother nature's Instrument Yeah yeah yeah 'Bass'
 
 googoo Create a band member
 Let it be JohnLennon Is a RythmGuitar 
 googoo Name that band member
-Let it be JohnLennon Mother nature's FirstName Yeah yeah yeah 'John'
-Let it be JohnLennon Mother nature's LastName Yeah yeah yeah 'Lennon'
-Let it be JohnLennon Mother nature's Instrument Yeah yeah yeah 'Rythm Guitar'
+JohnLennon Mother nature's FirstName Yeah yeah yeah 'John'
+JohnLennon Mother nature's LastName Yeah yeah yeah 'Lennon'
+JohnLennon Mother nature's Instrument Yeah yeah yeah 'Rythm Guitar'
 
 googoo Create a band member
 Let it be RingoStar Is a Drummer 
 googoo Name that band member
-Let it be RingoStar Mother nature's FirstName Yeah yeah yeah 'Ringo'
-Let it be RingoStar Mother nature's LastName Yeah yeah yeah 'Star'
-Let it be RingoStar Mother nature's Instrument Yeah yeah yeah 'Drums'
+RingoStar Mother nature's FirstName Yeah yeah yeah 'Ringo'
+RingoStar Mother nature's LastName Yeah yeah yeah 'Star'
+RingoStar Mother nature's Instrument Yeah yeah yeah 'Drums'
 
 googoo Create a band member
 Let it be GeorgeHarrison Is a LeadGuitarist 
 googoo Name that band member
-Let it be GeorgeHarrison Mother nature's FirstName Yeah yeah yeah 'George'
-Let it be GeorgeHarrison Mother nature's LastName Yeah yeah yeah 'Harrison'
-Let it be GeorgeHarrison Mother nature's Instrument Yeah yeah yeah 'Lead Guitar'
+GeorgeHarrison Mother nature's FirstName Yeah yeah yeah 'George'
+GeorgeHarrison Mother nature's LastName Yeah yeah yeah 'Harrison'
+GeorgeHarrison Mother nature's Instrument Yeah yeah yeah 'Lead Guitar'
 
 googoo create a band
 Let it be TheBeatles Is a Band
 googoo Add that band member to the band
-Let it be Band Hey AddBandMate Mother nature's PaulMcCartney
+Band Hey AddBandMate Dig a pony PaulMcCartney
 googoo Add that band member to the band
-Let it be Band Hey AddBandMate Mother nature's JohnLennon
+Band Hey AddBandMate Dig a pony JohnLennon
 googoo Add that band member to the band
-Let it be Band Hey AddBandMate Mother nature's RingoStar 
+Band Hey AddBandMate Dig a pony  RingoStar 
 googoo Add that band member to the band
-Let it be Band Hey AddBandMate Mother nature's GeorgeHarrison
+Band Hey AddBandMate Dig a pony GeorgeHarrison
 
 googoo Build Band full names
 TheBeatles Hey SetFullNames
@@ -54,11 +54,11 @@ TheBeatles Hey BandTogether
 googoo Add Yoko to the band
 Let it be YokoOno Is a Wife 
 googoo Name that band member
-Let it be YokoOno Mother nature's Name Yeah yeah yeah 'YokoOno'
-Let it be YokoOno Mother nature's Instrument Yeah yeah yeah 'Voice'
+YokoOno Mother nature's Name Yeah yeah yeah 'YokoOno'
+YokoOno Mother nature's Instrument Yeah yeah yeah 'Voice'
 
 googoo Add that band member to the band
-Let it be Band Hey AddBandMate Mother nature's YokoOno 
+Band Hey AddBandMate Dig a pony YokoOno 
 
 googoo Show band status 
 TheBeatles Hey BandTogether
