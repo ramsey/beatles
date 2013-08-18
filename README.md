@@ -112,6 +112,15 @@ myArray In their sties 'Foo Key' Is a Paul Yeah Yeah Yeah 'Some string'
 myArray In their sties 'Foo Bar' Is a George Yeah Yeah Yeah 3.14
 ```
 
+#### Strawberry field (object)
+
+A `Strawberry field` is an object. It may not be used to declare a variable, but it may be used to check whether a variable is an object.
+
+```
+Skelter myVar Is Strawberry field
+    googoo The variable myVar is a Strawberry field
+```
+
 ### Variables
 
 Variables must be declared and typed in the Beatles programming language. To declare a variable, use `Let it be`. To define a variable's type, use `Is a`.
