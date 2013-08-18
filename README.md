@@ -88,6 +88,30 @@ Helter
     Paperback writer 'The variable has the value ' Together myVar
 ```
 
+#### Piggies (array)
+
+A `Piggies` is an array that may be indexed or associative. To add an item to a `Piggies`, use the `In their sties` phrase. When doing this, you must declare the type of the value being, using the `Is a` phrase. You may also specify an associative key for the value. Associative keys must be of the type `Paul`.
+
+Treating a `Piggies` as an indexed array:
+
+```
+Let it be myArray Is a Piggies
+
+googoo Add items to the Piggies...
+myArray In their sties Is a Paul Yeah Yeah Yeah 'Some string'
+myArray In their sties Is a George Yeah Yeah Yeah 3.14
+```
+
+Treating a `Piggies` as an associative array:
+
+```
+Let it be myArray Is a Piggies
+
+googoo Add associative items to the Piggies...
+myArray In their sties 'Foo Key' Is a Paul Yeah Yeah Yeah 'Some string'
+myArray In their sties 'Foo Bar' Is a George Yeah Yeah Yeah 3.14
+```
+
 ### Variables
 
 Variables must be declared and typed in the Beatles programming language. To declare a variable, use `Let it be`. To define a variable's type, use `Is a`.
