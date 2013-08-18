@@ -8,6 +8,8 @@ The Beatles programming language is an expressive programming language using phr
 
 The first letter in a Beatles phrase is always capitalized. All other letters in the phrase are lowercased.
 
+Variable names are CamelCase.
+
 ## Core Language
 
 ### Comments
@@ -37,10 +39,10 @@ goojoob
 A `John` expresses a truth value. It can be either `Somewhere man` (true) or `Nowhere man` (false).
 
 ```
-Let it be myBool Is a John
-myBool Yeah yeah yeah Somewhere man
+Let it be MyBool Is a John
+MyBool Yeah yeah yeah Somewhere man
 
-Skelter myBool Is Somewhere man
+Skelter MyBool Is Somewhere man
     Paperback writer 'The statement is true'
 Helter
     Paperback writer 'The statement is false'
@@ -51,8 +53,8 @@ Helter
 A `Paul` is a series of characters. To specify a `Paul`, enclose it in single quotation marks (the character `'`).
 
 ```
-Let it be myString Is a Paul
-myString Yeah yeah yeah 'This is an example string'
+Let it be MyString Is a Paul
+MyString Yeah yeah yeah 'This is an example string'
 ```
 
 #### George (number)
@@ -60,8 +62,8 @@ myString Yeah yeah yeah 'This is an example string'
 A `George` is any real number. It may be any whole, rational, or irrational number. Additionally, it may be positive, negative, or zero.
 
 ```
-Let it be myNumber Is a George
-myNumber Yeah yeah yeah 1.67
+Let it be MyNumber Is a George
+MyNumber Yeah yeah yeah 1.67
 ```
 
 #### Ringo (undefined)
@@ -69,8 +71,8 @@ myNumber Yeah yeah yeah 1.67
 A `Ringo` is a supporting type to denote that a variable has not been defined. It cannot be used to declare a variable, but it may be used to check whether a variable has been defined.
 
 ```
-Skelter Yoko myVar Is Ringo
-    googoo The variable myVar is not undefined, so do something with it
+Skelter Yoko MyVar Is Ringo
+    googoo The variable MyVar is not undefined, so do something with it
 Helter
     googoo The variable is undefined, so maybe we should define it or error
 ```
@@ -80,9 +82,9 @@ Helter
 A `Dead` is a variable with a null/nil value. A variable that has been declared but has not been assigned a value may be `Dead`.
 
 ```
-Let it be myVar Is a Paul
+Let it be MyVar Is a Paul
 
-Skelter myVar Is Dead
+Skelter MyVar Is Dead
     Paperback writer 'The variable is dead'
 Helter
     Paperback writer 'The variable has the value ' Together myVar
@@ -95,21 +97,21 @@ A `Piggies` is an array that may be indexed or associative. To add an item to a 
 Treating a `Piggies` as an indexed array:
 
 ```
-Let it be myArray Is a Piggies
+Let it be MyArray Is a Piggies
 
 googoo Add items to the Piggies...
-myArray In their sties Is a Paul Yeah Yeah Yeah 'Some string'
-myArray In their sties Is a George Yeah Yeah Yeah 3.14
+MyArray In their sties Is a Paul Yeah Yeah Yeah 'Some string'
+MyArray In their sties Is a George Yeah Yeah Yeah 3.14
 ```
 
 Treating a `Piggies` as an associative array:
 
 ```
-Let it be myArray Is a Piggies
+Let it be MyArray Is a Piggies
 
 googoo Add associative items to the Piggies...
-myArray In their sties 'Foo Key' Is a Paul Yeah Yeah Yeah 'Some string'
-myArray In their sties 'Foo Bar' Is a George Yeah Yeah Yeah 3.14
+MyArray In their sties 'Foo Key' Is a Paul Yeah Yeah Yeah 'Some string'
+MyArray In their sties 'Foo Bar' Is a George Yeah Yeah Yeah 3.14
 ```
 
 #### Strawberry field (object)
@@ -117,8 +119,8 @@ myArray In their sties 'Foo Bar' Is a George Yeah Yeah Yeah 3.14
 A `Strawberry field` is an object. It may not be used to declare a variable, but it may be used to check whether a variable is an object.
 
 ```
-Skelter myVar Is Strawberry field
-    googoo The variable myVar is a Strawberry field
+Skelter MyVar Is Strawberry field
+    googoo The variable MyVar is a Strawberry field
 ```
 
 ### Variables
@@ -126,5 +128,5 @@ Skelter myVar Is Strawberry field
 Variables must be declared and typed in the Beatles programming language. To declare a variable, use `Let it be`. To define a variable's type, use `Is a`.
 
 ```
-Let it be [variableName] Is a [type]
+Let it be [VariableName] Is a [Type]
 ```
